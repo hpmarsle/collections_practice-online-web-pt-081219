@@ -39,9 +39,9 @@ end
 
 def add_s(words)
   words.each_with_index.collect do |word,i|
-    if i == 1 
-      next
-    end 
+    if i != 1 
+    #   next
+    # end 
     word << "s"
   end
 end
