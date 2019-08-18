@@ -43,6 +43,8 @@ def add_s(words)
     #   next
     # end 
       word << "s"
+    else
+      return word
     end
   end
 end
