@@ -44,7 +44,7 @@ def add_s(words)
     # end 
       word << "s"
     else
-      return word
+      words[i] = word
     end
   end
 end
