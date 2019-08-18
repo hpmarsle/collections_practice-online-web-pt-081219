@@ -40,8 +40,6 @@ end
 def add_s(words)
   words.each_with_index.collect do |word,i|
     if i != 1 
-    #   next
-    # end 
       word << "s"
     else
       words[i] = word
