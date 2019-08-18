@@ -42,6 +42,7 @@ def add_s(words)
     if i != 1 
     #   next
     # end 
-    word << "s"
+      word << "s"
+    end
   end
 end
